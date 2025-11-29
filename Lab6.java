@@ -20,7 +20,7 @@ public class Lab6 {
             String key = english.toLowerCase();
             if (dictionary.containsKey(key)) {
                 String currentTranslation = dictionary.get(key);
-                // Спросить пользователя, хочет ли заменить
+                // Запитати користувача, чи хоче замінити
                 boolean replace = askYesNo(scanner, 
                     "The word \"" + english + "\" already exists with translation \"" + currentTranslation + "\".\n" +
                     "Do you want to replace it with \"" + ukrainian + "\"? (yes/no)");
@@ -151,6 +151,7 @@ public class Lab6 {
         scanner.close();
     }
 }
+
 
 
 
