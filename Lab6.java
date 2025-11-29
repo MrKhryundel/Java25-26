@@ -59,7 +59,7 @@ public class Lab6 {
             }
         }
 
-        // Вспомогательный метод для получения yes/no от пользователя с проверкой
+        // Допоміжний метод отримання yes/no від користувача з перевіркою
         private boolean askYesNo(Scanner scanner, String message) {
             while (true) {
                 System.out.println(message);
@@ -151,6 +151,7 @@ public class Lab6 {
         scanner.close();
     }
 }
+
 
 
 
